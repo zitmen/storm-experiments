@@ -4,9 +4,9 @@ function datagen()
     addpath('C:\Program Files\DIPimage 2.6');
     dipstart();
     % use some of the Gu's methods
-    addpath('./cs-Gu2014');
+    addpath('./dependencies/Gu-2014');
     % use some of the 3denseSTORM methods
-    addpath('../../astigmatism/SNR+density/cs-sw');
+    addpath('./dependencies/3ds');
 
     % Setup
     header = {'"frame"','"x [nm]"','"y [nm]"','"z [nm]"','"I [photon]"','"background [photon]"','"camera_offset [ADU]"'};
